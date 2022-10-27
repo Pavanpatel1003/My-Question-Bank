@@ -1,0 +1,179 @@
+.flex {
+    display: flex
+}
+
+.de {
+    margin-left: 10px;
+    width: 500px;
+    height: 47px;
+    margin-top: 4px;
+}
+
+.de1 {
+    border: 1px solid black;
+    width: 40px;
+    height: 47px;
+    margin-top: 4px;
+}
+
+.btnA {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: inherit;
+    font-weight: 500;
+    margin: 21px 2px;
+    border-radius: 10px;
+    cursor: pointer !important;
+}
+
+.box {
+    border-left: 1px solid black;
+    height: 100vh;
+}
+
+.padding {
+    padding: 15px;
+}
+
+.font-20 {
+    font-size: 22px !important;
+    font-family: inherit;
+    color: #4d58c3;
+    font-weight: 500;
+}
+
+.font-15 {
+    font-size: 15px;
+    font-family: inherit;
+    color: #181d50;
+    font-weight: 500;
+}
+
+.box1 {
+    border: 1px solid black;
+    /* padding: 50px; */
+    /* margin: 20px; */
+    height: 470px;
+    margin-top: 130px;
+}
+
+.qu1 {
+    border: 1px solid black;
+    background-color: gray;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.p {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.quin {
+    margin-top: 10px;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.pop {
+    margin-top: 17px;
+    width: 100%;
+    height: 31px;
+}
+
+.pop1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.keyword {
+    display: contents;
+}
+
+.serchinput {
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 24px;
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+    font-family: inherit;
+    font-weight: 500;
+}
+
+.positiontRight {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+button:focus {
+    outline: 0 !important;
+}
+
+:focus-visible {
+    outline: 0 !important;
+}
+
+a.card-link {
+    background-color: #463e3e;
+    color: white;
+    font-size: 18px !important;
+}
+
+.navChapter {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 400px) {
+    .positiontRight {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

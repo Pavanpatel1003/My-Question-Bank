@@ -1,0 +1,40 @@
+.border {
+    border: 5px solid black;
+    height: 400px;
+    width: 560px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 130px;
+    background: #f1f1f1;
+}
+
+.tx1 {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.buttonlogin {
+    color: white;
+    padding-left: 5px;
+    margin-left: 230px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.tx2 {
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+.space {
+    margin-left: 120px;
+}
+
+.backgroundlogin {
+    background-color: white;
+}
